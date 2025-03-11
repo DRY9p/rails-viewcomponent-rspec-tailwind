@@ -92,3 +92,5 @@ end
 group :test do
   gem "simplecov", require: false
 end
+
+gem "view_component", "~> 2.0"
