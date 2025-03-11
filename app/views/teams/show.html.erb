@@ -21,9 +21,12 @@
 </h1>
 
 <div class="mb-2">
-  <%= render PageHeaderComponent.new(header: nil) do %>
+  <%= render PageHeaderComponent.new(header: nil ) do %>
     <div class="mb-1">
-      <%= render PageTitleComponent.new(title: @team.name) %>
+      <%= render BackNavigationComponent.new(
+            href: teams_path,
+            text: "Back to teams"
+      ) %>
     </div>
     <div class="flex space-x-3">
       <%= render EditLinkComponent.new(href: edit_team_path(@team), text: "team") %>

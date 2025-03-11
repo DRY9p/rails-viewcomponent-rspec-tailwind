@@ -65,21 +65,15 @@
 </div>
 
 <div class="flex-col space-y-2">
-  <div class="max-w-fit">
-    <%= link_to edit_athlete_path(@athlete) do %>
-      <div class="flex items-center space-x-1 text-gray-600 transition duration-300 border-b border-white hover:border-b hover:border-gray-400">
-        <div>
-          <svg class="h-4" fill="none" stroke="currentColor"
-            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z">
-            </path>
-          </svg>
-        </div>
-        <div>
-          Edit player details
-        </div>
-      </div>
+  <div class="mb-2">
+    <div class="mb-1">
+      <%= render BackNavigationComponent.new(
+            href: team_path(@athlete.team),
+            text: "team"
+      ) %>
+    </div>
+    <%= render PageHeaderComponent.new do %>
+      <%= render PageTitleComponent.new(title: "Player details")%>
     <% end %>
   </div>
   <div class="flex-col space-y-2">
@@ -89,3 +83,4 @@
         ) %>
     <%= render DeletedLinkComponent.new(href: athletes_path(@athlete), text: "player")%>
   </div>
+</div>
