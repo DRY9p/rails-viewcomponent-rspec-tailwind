@@ -70,9 +70,9 @@
       <%= render BackNavigationComponent.new(
             href: team_path(@athlete.team),
             text: "team"
-      ) %>
+          ) %>
     </div>
-    <%= render PageHeaderComponent.new do %>
+    <%= render PageHeaderComponent.new(header: "header") do %>
       <%= render PageTitleComponent.new(title: "Player details")%>
     <% end %>
   </div>
@@ -81,6 +81,6 @@
           href: edit_athlete_path(@athlete),
           text: "players details"
         ) %>
-    <%= render DeletedLinkComponent.new(href: athletes_path(@athlete), text: "player")%>
+    <%= render DeleteLinkComponent.new(href: athlete_path(@athlete), text: "player")%>
   </div>
 </div>
