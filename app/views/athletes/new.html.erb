@@ -60,4 +60,11 @@
   <div class="w-32 py-2 mt-4 font-medium text-center text-white bg-gray-800 rounded-full cursor-pointer">
     <%= f.submit "Add player", class: "cursor-pointer" %>
   </div>
+
+  <% if @athlete.errors.any? %>
+    <%= render FormErrorsComponent.new(
+      resource: @athlete,
+      descriptor: "player"
+    ) %>
+  <% end %>
 <% end %>
