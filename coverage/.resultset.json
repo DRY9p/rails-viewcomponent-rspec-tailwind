@@ -1,160 +1,46 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/scz/repos/play/rails/view-component-rspec/app/helpers/application_helper.rb": {
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/helpers/application_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/home/scz/repos/play/rails/view-component-rspec/app/models/team.rb": {
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/components/add_link_component.rb": {
         "lines": [
-          1,
-          1,
-          null,
-          1,
-          null
-        ]
-      },
-      "/home/scz/repos/play/rails/view-component-rspec/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/scz/repos/play/rails/view-component-rspec/app/models/athlete.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/scz/repos/play/rails/view-component-rspec/app/controllers/athletes_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          1,
           null,
           null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          null,
-          1,
-          0,
-          null,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null,
-          1,
-          1,
-          0,
-          null,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/home/scz/repos/play/rails/view-component-rspec/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/home/scz/repos/play/rails/view-component-rspec/app/controllers/teams_controller.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          null,
-          null,
-          1,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
           1,
           null,
           null
         ]
       },
-      "/home/scz/repos/play/rails/view-component-rspec/app/channels/application_cable/channel.rb": {
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/components/application_component.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/components/link_component.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/channels/application_cable/channel.rb": {
         "lines": [
           0,
           0,
@@ -164,7 +50,7 @@
         "branches": {
         }
       },
-      "/home/scz/repos/play/rails/view-component-rspec/app/channels/application_cable/connection.rb": {
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/channels/application_cable/connection.rb": {
         "lines": [
           0,
           0,
@@ -174,7 +60,197 @@
         "branches": {
         }
       },
-      "/home/scz/repos/play/rails/view-component-rspec/app/jobs/application_job.rb": {
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/components/back_navigation_component.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/components/delete_link_component.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/components/edit_link_component.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/components/page_header_component.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/components/page_title_component.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/controllers/athletes_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/controllers/teams_controller.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/jobs/application_job.rb": {
         "lines": [
           0,
           null,
@@ -187,10 +263,43 @@
         "branches": {
         }
       },
-      "/home/scz/repos/play/rails/view-component-rspec/app/mailers/application_mailer.rb": {
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/mailers/application_mailer.rb": {
         "lines": [
           0,
           0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/models/application_record.rb": {
+        "lines": [
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/models/athlete.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/cr9co0/Projects/educhain/rails-viewcomponent-rspec-tailwind/app/models/team.rb": {
+        "lines": [
+          0,
+          0,
+          null,
           0,
           0
         ],
@@ -198,6 +307,6 @@
         }
       }
     },
-    "timestamp": 1644810481
+    "timestamp": 1741781712
   }
 }
