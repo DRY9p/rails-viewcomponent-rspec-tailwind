@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.0.1"
+ruby "3.3.7"
 
-# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.0.1"
+# Proof of statment: https://www.fastruby.io/blog/ruby/rails/versions/compatibility-table.html
+gem "rails", "~> 7.2.2.1"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
@@ -13,7 +13,7 @@ gem "sprockets-rails"
 gem "pg", "~> 1.1"
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem "puma", "~> 5.0"
+gem "puma", "~> 6.6.0"
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
@@ -24,8 +24,9 @@ gem "turbo-rails"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
-# Use Tailwind CSS [https://github.com/rails/tailwindcss-rails]
-gem "tailwindcss-rails"
+# Post-install message from tailwindcss-rails:
+# == Upgrading to Tailwind CSS v4 ==
+gem "tailwindcss-rails", "~> 3.3.1"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
@@ -67,7 +68,7 @@ group :development, :test do
   # Acceptance test framework for web applications
   gem "capybara", "~> 3.36"
 
-  gem "selenium-webdriver", "~> 4.1"
+  gem "selenium-webdriver", "~> 4.29.1"
 
   # Keep your Selenium WebDrivers updated automatically
   gem "webdrivers"
