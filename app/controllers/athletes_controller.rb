@@ -10,8 +10,16 @@ class AthletesController < ApplicationController
   end
 
   def create
-    @athlete = @team.athletes.create(athlete_params) # create is equivalent to build/new (equivalent) + save
-    flash[:notice] = "Player has been added."
+    # binding.pry
+    # @athlete = @team.athletes.create(athlete_params) # create is equivalent to build/new (equivalent) + save
+    
+    @athlete = @team.athletes.build(athlete_params)
+    if @athlete.save
+      flash[:notice] = "Player has been added."
+    else
+      flash[:alert] = "C таким значением jersey_number уже существует #{same_jersey_number.first_name}"
+    end
+
     redirect_to team_path(@team)
   end
 
@@ -50,5 +58,9 @@ class AthletesController < ApplicationController
     else
       @team = Team.find(Athlete.find(params[:id]).team_id)
     end
+  end
+
+  def same_jersey_number
+    Athlete.find_by(jersey_number: @athlete.jersey_number)
   end
 end

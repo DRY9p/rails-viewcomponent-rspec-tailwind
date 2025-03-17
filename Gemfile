@@ -95,3 +95,4 @@ end
 
 gem "view_component", "~> 2.0"
 
+gem "pry"
